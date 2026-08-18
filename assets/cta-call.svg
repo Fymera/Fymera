@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="324" height="88" viewBox="0 0 324 88" role="img" aria-label="Prenota una call">
+<defs>
+  
+  <linearGradient id="brand" x1="0%" y1="0%" x2="100%" y2="0%">
+    <stop offset="0%" stop-color="#ff2d8f"/>
+    <stop offset="100%" stop-color="#3e6aff"/>
+  </linearGradient>
+  <clipPath id="cut"><polygon points="26,8 312,8 312,54 298,68 12,68 12,22"/></clipPath>
+  <filter id="halo" x="-40%" y="-60%" width="180%" height="240%"><feGaussianBlur stdDeviation="9"/></filter>
+  <linearGradient id="sheen" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0%" stop-color="#fff" stop-opacity="0"/>
+    <stop offset="50%" stop-color="#fff" stop-opacity="0.4"/>
+    <stop offset="100%" stop-color="#fff" stop-opacity="0"/>
+  </linearGradient>
+</defs>
+  <polygon points="32,18 306,18 306,56 292,70 18,70 18,32" fill="url(#brand)"
+           opacity="0.5" filter="url(#halo)"/>
+  <g clip-path="url(#cut)">
+    <polygon points="26,8 312,8 312,54 298,68 12,68 12,22" fill="url(#brand)"/>
+    <rect x="-140" y="8" width="120" height="60" fill="url(#sheen)">
+      <animate attributeName="x" values="-140;354" dur="3.6s" begin="1s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+  <text x="162" y="43.4" text-anchor="middle" font-family="system-ui,-apple-system,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif" font-size="15.5"
+        font-weight="600" fill="#ffffff">Prenota una call</text>
+</svg>

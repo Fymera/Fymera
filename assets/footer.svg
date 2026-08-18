@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="150" viewBox="0 0 1200 150" role="img" aria-label="Fymera Srl — Corso Giacomo Matteotti 149, 04100 Latina (LT) — contatti@fymera.it">
+<defs>
+  
+  <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse">
+    <circle cx="1" cy="1" r="1" fill="rgba(255,255,255,0.035)"/>
+  </pattern>
+  
+  <linearGradient id="brand" x1="0%" y1="0%" x2="100%" y2="0%">
+    <stop offset="0%" stop-color="#ff2d8f"/>
+    <stop offset="100%" stop-color="#3e6aff"/>
+  </linearGradient>
+  
+  <linearGradient id="scan" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0%" stop-color="#ffffff" stop-opacity="0"/>
+    <stop offset="50%" stop-color="#ffffff" stop-opacity="0.035"/>
+    <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+  </linearGradient>
+  <radialGradient id="gp" cx="50%" cy="50%" r="50%">
+    <stop offset="0%" stop-color="#3e6aff" stop-opacity="0.16"/>
+    <stop offset="100%" stop-color="#3e6aff" stop-opacity="0"/>
+  </radialGradient>
+</defs>
+  <rect width="1200" height="150" fill="#06070a"/>
+  <rect width="1200" height="150" fill="url(#grid)"/>
+  <ellipse cx="600" cy="0" rx="640" ry="150" fill="url(#gp)"/>
+  <rect x="0" y="0" width="1200" height="2" fill="url(#brand)"/>
+
+  <text x="60" y="58" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="13" fill="#22c55e">$<tspan fill="#c9c9d1"> exit</tspan></text>
+  
+  <rect x="109.8" y="45" width="8" height="16" fill="#22c55e" opacity="0">
+    <animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;0.01;0.5;0.51;1"
+             dur="1.06s" begin="0s" repeatCount="indefinite"/>
+  </rect>
+
+  <text x="60" y="94" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="12.5" fill="#8a8a96">Fymera Srl · P. IVA 03333300592 · Corso Giacomo Matteotti 149 · 04100 Latina (LT) · Italia</text>
+  <text x="60" y="116" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="12.5" fill="#8a8a96">contatti@fymera.it · +39 353 484 6396 · lun–ven 10:00–20:00</text>
+
+  <text x="1140" y="94" text-anchor="end" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="12.5"
+        letter-spacing="2.6" fill="#5a5a66">FYMERA.IT</text>
+  <text x="1140" y="116" text-anchor="end" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="12.5"
+        fill="#5a5a66">it · en · es · de</text>
+
+  <path d="M22,46 L22,22 L46,22" fill="none" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
+  <path d="M1154,22 L1178,22 L1178,46" fill="none" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
+  <path d="M22,104 L22,128 L46,128" fill="none" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
+  <path d="M1154,128 L1178,128 L1178,104" fill="none" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
+</svg>
